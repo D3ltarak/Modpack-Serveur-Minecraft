@@ -1,0 +1,13 @@
+name = "Garnished"
+filename = "garnished-2.1.6.8+1.21.1-neoforged.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6e2SlzR4/versions/LljvYUxj/garnished-2.1.6.8%2B1.21.1-neoforged.jar"
+hash-format = "sha512"
+hash = "5942b70331fe1a757ebebdf6fbda1a6840f061582abef7149b8e2b2598db3a2dbf69b21cf2253ccff2b31dc3e08f3011dfee1b7f24ab60b5133ee53b7b35d17e"
+
+[update]
+[update.modrinth]
+mod-id = "6e2SlzR4"
+version = "LljvYUxj"

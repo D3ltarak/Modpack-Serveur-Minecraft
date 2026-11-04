@@ -1,0 +1,12 @@
+name = "Serveur moddé - Dorian"
+version = "2.6"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3943e8149e138cece50a982d6beaba9f2ff1c9cb5e27f8872747a10839bad28a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

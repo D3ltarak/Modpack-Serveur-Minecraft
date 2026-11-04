@@ -1,0 +1,13 @@
+name = "Bright Vision"
+filename = "bright-vision-0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mRQpAsdk/versions/PdxejWBt/bright-vision-0.1.zip"
+hash-format = "sha512"
+hash = "01559a8ad9e3e251939147435e25e2efe44087beb6779dd178d5276f22747d67176b3e4b58c14627274ac3d477685c924464d9cb70dcd2acc8e39a2fc59dd95c"
+
+[update]
+[update.modrinth]
+mod-id = "mRQpAsdk"
+version = "PdxejWBt"

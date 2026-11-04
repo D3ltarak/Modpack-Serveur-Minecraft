@@ -1,0 +1,13 @@
+name = "Pretty In Pink"
+filename = "pretty_in_pink-1.0.4-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sNPHd5e4/versions/Fwmuel1c/pretty_in_pink-1.0.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "2e679ec371eecf943719e460a20c93858aa6ae6a5bd397139751876feeb5da60a618ee6d4a25958c83447236dc1c46bd043081ed2ba15c25404b9020a52693e6"
+
+[update]
+[update.modrinth]
+mod-id = "sNPHd5e4"
+version = "Fwmuel1c"

@@ -1,0 +1,13 @@
+name = "Createhavenqualities Neoforge"
+filename = "CreateHavenQualities-NeoForge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D5yLz6Tt/versions/THqXQMk1/CreateHavenQualities-NeoForge-1.21.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "bd611923bec79e889aa80354441c51847c7f14cd5f0f11c0e40bd5a31e18ed389e0a654ada6025da42047e3f3ac89d3e48aac8433172a54429816ed8f74473cc"
+
+[update]
+[update.modrinth]
+mod-id = "D5yLz6Tt"
+version = "THqXQMk1"

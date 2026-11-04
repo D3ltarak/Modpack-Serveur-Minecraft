@@ -1,0 +1,13 @@
+name = "Underground Village Neoforge"
+filename = "underground_village-neoforge-1.5.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KmyhssPl/versions/UllvTOm1/underground_village-neoforge-1.5.6.jar"
+hash-format = "sha512"
+hash = "77fdecc8bf38b08518ee43ae2f6559bcc2b72563e619a709328b7bcbe9cf9e35bdd01eade4ae55338d09e4ce1367335863dbdc6911319bb31d07b9fd52653e1b"
+
+[update]
+[update.modrinth]
+mod-id = "KmyhssPl"
+version = "UllvTOm1"

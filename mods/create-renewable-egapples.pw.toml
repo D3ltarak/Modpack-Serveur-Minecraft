@@ -1,0 +1,13 @@
+name = "Create Renewable Egapples"
+filename = "create-renewable-egapples-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qpDVQtGR/versions/1kUBuEx8/create-renewable-egapples-1.0.1.jar"
+hash-format = "sha512"
+hash = "5cab70f4e97fa907a3bfaf6bd0ab58f56afcac505202ae0804ac22847cc67ac6300a8077321ace69093117af0712189676ec53214deeb45213fdcabad8ba67cc"
+
+[update]
+[update.modrinth]
+mod-id = "qpDVQtGR"
+version = "1kUBuEx8"

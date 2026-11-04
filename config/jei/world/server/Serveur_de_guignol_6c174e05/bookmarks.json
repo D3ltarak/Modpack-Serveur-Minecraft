@@ -1,0 +1,19 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create_mechanical_spawner:vertical_framed_dark_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":["create:sandpaper_polishing/rose_quartz_using_grindstone",{"ingredients":[{"item":"create:rose_quartz"}],"results":[{"id":"create:polished_rose_quartz"}],"type":"create_enchantment_industry:grinding"}],"recipeType":"create_enchantment_industry:grinding","bookmarkType":"RECIPE"},
+  {"recipe":"create_ironworks:materials/steel/sequenced_crafting_precision_mechanism","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/mechanical_arm","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/fluid_tank","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/gearbox","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/item_vault","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:mechanical_crafting/crushing_wheel","recipeType":"create:mechanical_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_mechanical_chicken:crafting/mechanical_chicken","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_sa:portable_drill_recipe","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_mechanical_extruder:mechanical_brass_extruder","recipeType":"create:mechanical_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:sequenced_assembly/precision_mechanism","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/item_drain","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:water_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create_mechanical_extruder:crafting/mechanical_extruder","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/mechanical_mixer","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

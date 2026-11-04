@@ -1,0 +1,43 @@
+# Import d'un export Modrinth App : déposer le .mrpack dans import/ (interface web de Gitea : « Téléverser un fichier »).
+# Le modpack est régénéré, l'instance Prism des joueurs refaite, puis le tout est poussé (et recopié sur GitHub).
+# Variable du dépôt à créer (Paramètres > Actions > Variables) : PACK_URL = adresse brute de pack.toml sur GitHub.
+name: Import du modpack
+on:
+  push:
+    paths:
+      - "import/*.mrpack"
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Régénérer le modpack
+        run: |
+          set -e
+          f=$(ls -t import/*.mrpack 2>/dev/null | head -1 || true)
+          if [ -n "$f" ]; then
+            python3 tools/mcpack.py reimport "$f" .
+            git rm -q --cached import/*.mrpack || true
+            rm -f import/*.mrpack
+          fi
+          # Mods ajoutés à la main : métadonnées Modrinth si le fichier y est publié
+          python3 tools/mcpack.py resolve . || true
+
+      - name: Instance Prism Launcher des joueurs
+        if: ${{ vars.PACK_URL != '' }}
+        run: |
+          rm -f joueurs/*.zip
+          python3 tools/mcpack.py prism . "${{ vars.PACK_URL }}" tools/packwiz-installer-bootstrap.jar \
+            "joueurs/Serveur-Dorian-Prism.zip"
+
+      - name: Enregistrer
+        run: |
+          git config user.name "Modpack (CI)"
+          git config user.email "ci@localhost"
+          git add -A
+          if git diff --cached --quiet; then echo "Rien à enregistrer"; exit 0; fi
+          git commit -m "Modpack : import $(date +%Y-%m-%d) [skip ci]"
+          git push

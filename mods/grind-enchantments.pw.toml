@@ -1,0 +1,13 @@
+name = "Grind Enchantments"
+filename = "grind-enchantments-4.0.1+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WC4UgDcZ/versions/jUOOQMmy/grind-enchantments-4.0.1%2Bneoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "6f87355f0ce75dd08531b7adf42569c160cee8fa58adaf6632cbba33dbcd4fee6e17fe9daf6eb8242572153e719b52464080412093bb961460b99e20380efce1"
+
+[update]
+[update.modrinth]
+mod-id = "WC4UgDcZ"
+version = "jUOOQMmy"

@@ -1,0 +1,34 @@
+#.
+#Trading station
+["Trading Station"]
+	#.
+	#.
+	#How much progress per tick.
+	# Default: 1
+	# Range: > 1
+	progressPerTick = 1
+
+#.
+#Powered Trading station
+["Powered Trading station"]
+	#.
+	#.
+	#How much progress per tick.
+	# Default: 5
+	# Range: > 1
+	progressPerTick = 5
+	#.
+	#How much energy capacity has.
+	# Default: 64000
+	# Range: > 1
+	energyCapacity = 64000
+	#.
+	#How much energy can transfer.
+	# Default: 2000
+	# Range: > 1
+	energyTransfer = 2000
+	#.
+	#How much energy consumens per tick.
+	# Default: 500
+	# Range: > 1
+	energyPerTick = 500

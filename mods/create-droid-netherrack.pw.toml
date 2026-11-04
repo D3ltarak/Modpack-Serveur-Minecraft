@@ -1,0 +1,13 @@
+name = "Create Droid Netherrack"
+filename = "create_droid_netherrack-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/U6zRs93u/versions/ySZGsZOf/create_droid_netherrack-1.2.0.jar"
+hash-format = "sha512"
+hash = "a5feea48d3a9e578f5adaf368034e395c0e75ff250b45ce9a43f5aaa67a2cfeca83fd49f298e77626b53a08d1ea1c91f3c5e6ea039b4ed9f9cf388c7038eaee3"
+
+[update]
+[update.modrinth]
+mod-id = "U6zRs93u"
+version = "ySZGsZOf"

@@ -1,0 +1,13 @@
+name = "Createsifter"
+filename = "createsifter-1.21.1-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r018adCw/versions/wltLQmj3/createsifter-1.21.1-2.2.0.jar"
+hash-format = "sha512"
+hash = "15506b1a7b5e715e67dde40d2903f79d86502d06f910408bca8c4fc4e614f0b706131d379ed416a9fa164d528dc4357a39fa89a5dbd883238fb4b5837cc71eea"
+
+[update]
+[update.modrinth]
+mod-id = "r018adCw"
+version = "wltLQmj3"

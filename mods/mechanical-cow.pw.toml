@@ -1,0 +1,13 @@
+name = "Mechanical Cow"
+filename = "mechanical_cow-1.21.1-1.2.0-6.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zRNN7mYy/versions/ZW17rGas/mechanical_cow-1.21.1-1.2.0-6.0.8.jar"
+hash-format = "sha512"
+hash = "5569166b09fc2e5b449d4bd8608b336a323e012c0de25b64086405723934c6561f4c69132883113518b2769fbc8c6eb5a2fd614ed25b2f76265588f7fefe8b93"
+
+[update]
+[update.modrinth]
+mod-id = "zRNN7mYy"
+version = "ZW17rGas"

@@ -1,0 +1,13 @@
+name = "Create Ore Excavation Plus"
+filename = "create_ore_excavation_plus-0.2.4-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZHocuC06/versions/EVp4poFf/create_ore_excavation_plus-0.2.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "1bf48a4a05b9c19c4ee0954de3d9bae3c2de0ba6a562055a13950584de9e4c4fb2f151e73d7cf457a661856c7bfbbfbbbd9d6c78d95ccff275a9d68b3a9e05e1"
+
+[update]
+[update.modrinth]
+mod-id = "ZHocuC06"
+version = "EVp4poFf"
